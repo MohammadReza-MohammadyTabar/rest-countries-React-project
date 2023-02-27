@@ -62,6 +62,7 @@ function Deatail(param) {
           >
             <div style={{ padding: "0px 50px", display: "flex" }}>
               <img src={data[0]?.flags.png} alt="" style={{ width: "500px" }} />
+              {console.log(data)}
             </div>
             <div style={{ marginLeft: "90px" }}>
               <h3 style={{ marginBottom: "20px" }}>{data[0]?.name.official}</h3>
