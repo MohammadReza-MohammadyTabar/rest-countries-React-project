@@ -16,3 +16,6 @@
 node_modules
 design
 .vscode
+
+# Local Netlify folder
+.netlify
